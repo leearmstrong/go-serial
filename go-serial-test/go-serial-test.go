@@ -11,7 +11,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/jacobsa/go-serial/serial"
+	"github.com/leearmstrong/go-serial/serial"
 )
 
 func usage() {

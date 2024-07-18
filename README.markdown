@@ -17,11 +17,11 @@ Installation
 
 Simply use `go get`:
 
-    go get github.com/jacobsa/go-serial/serial
+    go get github.com/leearmstrong/go-serial/serial
 
 To update later:
 
-    go get -u github.com/jacobsa/go-serial/serial
+    go get -u github.com/leearmstrong/go-serial/serial
 
 
 Use
@@ -32,7 +32,7 @@ Set up a `serial.OpenOptions` struct, then call `serial.Open`. For example:
 ````go
     import "fmt"
     import "log"
-    import "github.com/jacobsa/go-serial/serial"
+    import "github.com/leearmstrong/go-serial/serial"
 
     ...
 
